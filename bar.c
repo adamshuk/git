@@ -18,6 +18,12 @@ void subtracao(int a, int b){
 	printf("%d\n", sub);
 }
 
+void divisao(int a, int b){
+	float div;
+	div=(float)a/b;
+	printf("%f\n", div);
+}
+
 int main(){
 	int a, b;
 	scanf("%d %d", &a, &b);
@@ -25,4 +31,5 @@ int main(){
 	soma(a, b);
 	multiplicacao(a, b);
 	subtracao(a, b);
+	divisao(a, b);
 }
